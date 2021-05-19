@@ -1,0 +1,98 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.form {
+    /* border: 1px solid #555555; */
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 60px auto;
+    color: #fff;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-image: linear-gradient(to right, orange, violet);
+}
+
+.title {
+    font-size: 27px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.btn {
+    position: relative;
+    vertical-align: top;
+    height: 40px;
+    width: 25%;
+    padding: 0;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background: #E18CCF;
+    border: 0;
+    margin: auto;
+    border-bottom: 2px solid #d0d0d0;
+    cursor: pointer;
+    border: 1px solid #F1A341;
+    /* margin-left: auto; */
+}
+
+input:not([type="submit"]) {
+    flex: 1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #F1A341;
+}
+
+p {
+    display: flex;
+}
+
+label {
+    width: 7em;
+    margin-right: .8em;
+    text-align: end;
+    font-size: 18px;
+}
+.bmr-table-title{
+    font-size: 27px;
+    padding-right: 15px;
+    justify-content: center;
+}
+.validationResult {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+}
+.bmr-flex-container {
+    display: flex;
+    width:50%;
+    margin:auto;
+    margin-top:50px;
+    justify-content: center;
+
+  }
+  
+  .bmr-flex-container > div {
+      border:1px solid white;
+      background-image: linear-gradient(to right, orange, violet);
+      flex:1;
+    flex-basis:100px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+@media (max-width: 600px) {
+    p {
+        display: block;
+    }
+    input {
+        width: 100%;
+    }
+    input[type="submit"] {
+        width: 100%;
+    }
+      
+}
